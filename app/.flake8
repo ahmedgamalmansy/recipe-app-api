@@ -1,7 +1,13 @@
 [flake8]
-
-exclude = 
-	migrations
+exclude =
+	migrations,
 	__pycache__,
 	manage.py,
 	settings.py
+
+
+ignore =
+	E231,
+	E302,
+	W191,
+	W391,
